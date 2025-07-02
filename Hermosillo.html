@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Soluciones Industriales Hermosillo</title>
+<style>
+  :root {
+    --color-principal: #003366;
+    --color-secundario: #005599;
+    --color-fondo: #f4f4f4;
+    --color-texto: #333;
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: var(--color-texto);
+    background: var(--color-fondo);
+  }
+
+  header {
+    background: var(--color-principal);
+    color: white;
+    padding: 20px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 2px solid white;
+  }
+
+  .logo h1 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+
+  .logo p {
+    margin: 4px 0 0 0;
+    font-size: 0.9em;
+    color: #ddd;
+  }
+
+  nav {
+    background: var(--color-secundario);
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  nav a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  section {
+    margin-bottom: 60px;
+  }
+
+  h2 {
+    color: var(--color-principal);
+    border-bottom: 3px solid var(--color-secundario);
+    padding-bottom: 5px;
+  }
+
+  .servicios {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .servicio {
+    flex: 1 1 calc(33% - 20px);
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  .testimonios {
+    background: white;
+    padding: 40px 20px;
+  }
+
+  blockquote {
+    margin: 0 0 20px;
+    font-style: italic;
+  }
+
+  footer {
+    background: var(--color-principal);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+  @media(max-width: 768px) {
+    .servicio {
+      flex: 1 1 100%;
+    }
+
+    .logo {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .logo img {
+      margin-bottom: 10px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <img src="portada1.JPEG" alt="Logo Soluciones Industriales Hermosillo">
+    <div>
+      <h1>Soluciones Industriales Hermosillo</h1>
+      <p>Especialistas en servicios industriales en Tijuana</p>
+    </div>
+  </div>
+</header>
+
+<nav>
+  <a href="#inicio">Inicio</a>
+  <a href="#servicios">Servicios</a>
+  <a href="#proyectos">Proyectos</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<div class="container">
+  <section id="inicio">
+    <h2>Bienvenido</h2>
+    <p>Ofrecemos soluciones industriales confiables y personalizadas: desde mantenimiento hasta estructuras a medida.</p>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <div class="servicios">
+      <div class="servicio">
+        <h3>Mantenimiento industrial</h3>
+        <p>Mantenimiento preventivo, correctivo y predictivo para todo tipo de instalaciones.</p>
+      </div>
+      <div class="servicio">
+        <h3>Soldadura y herrería</h3>
+        <p>Fabricación e instalación de estructuras metálicas y componentes soldados.</p>
+      </div>
+      <div class="servicio">
+        <h3>Automatización</h3>
+        <p>Diseño e implementación de sistemas automatizados para optimizar procesos.</p>
+      </div>
+      <div class="servicio">
+        <h3>Instalaciones eléctricas</h3>
+        <p>Proyectos eléctricos industriales con certificación y seguridad.</p>
+      </div>
+      <div class="servicio">
+        <h3>Montaje de equipos</h3>
+        <p>Montaje de maquinaria, elevadores y grúas viajeras.</p>
+      </div>
+      <div class="servicio">
+        <h3>Consultoría técnica</h3>
+        <p>Asesoría especializada para optimizar tus sistemas industriales.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos Destacados</h2>
+    <p>Aquí se mostrará una galería de imágenes con nuestros trabajos recientes.</p>
+  </section>
+
+  <section class="testimonios">
+    <h2>Testimonios</h2>
+    <blockquote>“Gracias a Soluciones Industriales Hermosillo optimizamos procesos y reducimos costos.” – Cliente Industrial</blockquote>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p><strong>Teléfono:</strong> 664 758 1064</p>
+    <p><strong>Ubicación:</strong> Tijuana, Baja California</p>
+    <p><strong>Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=61577711321825" target="_blank">Soluciones Industriales Hermosillo</a></p>
+  </section>
+</div>
+
+<footer>
+  <p>&copy; 2025 Soluciones Industriales Hermosillo</p>
+</footer>
+
+</body>
+</html>
